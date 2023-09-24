@@ -1,0 +1,42 @@
+@media screen and (max-width:768px) {
+    .child-nav{
+        display: none;
+    }
+    .nav-toggle{
+        display: block;
+        margin-right: 0px;
+        font-size: 1.5rem;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .section{
+        max-width: 100%;
+    }
+    .left-container{
+        width: 100%;
+    }
+    .menu-card{
+        width: 45%;
+    }
+    .left-about{
+        width: 100%;
+    }
+    .left-about img{
+        width: 100%;
+    }
+    .about-text{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 425px){
+    .menu-card{
+        width: 100%;
+    }
+    .about{
+        padding: 10px;
+    }
+}
